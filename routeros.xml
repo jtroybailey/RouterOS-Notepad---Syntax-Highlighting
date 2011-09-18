@@ -1,0 +1,36 @@
+<NotepadPlus>
+    <UserLang name="routeros" ext="">
+        <Settings>
+            <Global caseIgnored="no" />
+            <TreatAsSymbol comment="no" commentLine="no" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">000000</Keywords>
+            <Keywords name="Folder+"></Keywords>
+            <Keywords name="Folder-"></Keywords>
+            <Keywords name="Operators">\ =</Keywords>
+            <Keywords name="Comment"> 1 2 0#</Keywords>
+            <Keywords name="Words1">/interface /ip /port /mpls /ppp /queue /routing /snmp /system /user /ipv6 /radius /tool wireless snooper wireless sniffer wireless align sstp-server server pptp-server server ovpn-server server bridge ethernet ipip 6to4 vlan switch security-profiles manual-tx-power-table nstreme hotspot profile user ipsec proposal dhcp-server pool pppoe-client type bgp instance ospf ospf-v3 community logging action routerboard settings group l2tp-server accounting web-access address config lease network dns static firewall connection tracking filter nat service-port peer policy neighbor discovery proxy service socks ssh traffic-flow mangle nd prefix default route interface ldp firmware aaa secret incoming aggregate igmp-proxy mme pim rip ripng /store clock console gps health identity lcd page note ntp client resource irq script upgrade mirror watchdog bandwidth-server e-mail graphing mac-server ping sms traffic-generator user-manager customer</Keywords>
+            <Keywords name="Words2">add set </Keywords>
+            <Keywords name="Words3">admin-mac ageing-time arp auto-mac disabled forward-delay l2mtu max-message-age mtu name priority protocol-mode transmit-hold-count auto-negotiation bandwidth comment full-duplex mac-address master-port speed dscp local-address remote-address vlan-id use-service-tag authentication-types group-ciphers group-key-update interim-update management-protection management-protection-key mode radius-eap-accounting radius-mac-accounting radius-mac-authentication radius-mac-caching radius-mac-format radius-mac-mode static-algo-0 static-algo-1 static-algo-2 static-algo-3 static-key-0 static-key-1 static-key-2 static-key-3 static-sta-private-algo static-sta-private-key static-transmit-key supplicant-identity tls-certificate tls-mode unicast-ciphers wpa-pre-shared-key wpa2-pre-shared-key</Keywords>
+            <Keywords name="Words4"></Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="00FFFF" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="FF0080" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="00FF00" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="808080" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
